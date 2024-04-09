@@ -8,7 +8,7 @@ title: "Lyric Play"
 
 Melodieën kan ik makkelijker herinneren dan teksten.
 
-Bij het organiseren van meezing-sessies met dementerenden vond ik het handing om liedteksten te projecteren op een scherm. Dus schreef ik een aantal toepassingen waarmee ik liedteksten kon bewaren, een liedtekst kon selecteren en projecteren op het scherm. Dit systeem heb ik Lipl genoem. Het is een soort afkorting van **L**yr**i**c **Pl**ay.
+Bij het organiseren van meezing-sessies met dementerenden vond ik het handing om liedteksten te projecteren op een scherm. Dus schreef ik een aantal toepassingen waarmee ik liedteksten kon bewaren, een liedtekst kon selecteren en projecteren op het scherm. Dit systeem heb ik Lipl genoemd. Het is een soort afkorting van **L**yr**i**c **Pl**ay.
 
 Lipl kent 3 componenten
 
