@@ -1,5 +1,5 @@
 ---
-title: "Lipl"
+title: "Lyric Play"
 ---
 
 # Lipl
@@ -27,13 +27,16 @@ Een web versie van dit component wordt door mij gebruikt om de liedteksten en af
 ### Meezingen
 
 Als ik naar een meezing-sessie ga, neem ik met mij mee
-- Mijn smartphone met lipl-control geïnstalleerd en de gegevens die zijn gesynchroniseerd met lipl-storage
-- Een raspberry pi met lipl-display geïnstalleerd
+- Mijn smartphone met lipl afstandsbediening geïnstalleerd en de gegevens die zijn gesynchroniseerd met lipl opslag
+- Een raspberry pi met lipl scherm geïnstalleerd
 
-De rapberry pi wordt via de HDMI connector verbonden met een scherm. Na het opstarten van de pi wordt automatisch een Gatt service geadverteerd.
+De HDMI connector van de pi wordt verbonden met een scherm. Na het opstarten van de pi wordt automatisch een Gatt service geadverteerd.
 
-Lipl afstandsbediening luistert naar advertenties en wordt verbonden met de Pi. Als ik afspelen kies wordt de tekst naar een Gatt Charateristic op de pi geschreven. Lipl afstandsbediening kan ook naar een characteristic schrijven die de lettergrootte bepaald of de het thema.
+Lipl afstandsbediening luistert naar advertenties en wordt verbonden met de Pi. Als ik afspelen kies wordt de tekst naar een Gatt Characteristic op de pi geschreven. Lipl afstandsbediening kan ook naar een characteristic schrijven die de lettergrootte of het thema bepaald.
 
+### Bluetooth
+
+Voor de uitwisseling van gegevens tussen lipl afstandsbediening en lipl scherm heb ik gekozen voor Bluetooth Low Energy. 
 
 ## Lipl Opslag
 
@@ -44,11 +47,11 @@ Met deze toepassing die tegenwoordig backend wordt genoemd worden alle verzoeken
 
 ## Lipl Scherm
 
-Het gatt peripheral onderdeel definieert een gatt service met drie characeristics die geschreven kunnen worden , namelijk text, status en control.
+Het gatt peripheral onderdeel definieert een gatt service met drie characteristics die geschreven kunnen worden, namelijk text, status en control.
 
 Text wordt gebruikt om het tekstgedeelte dat moet worden getoond te versturen.
 
-Status wordt gebruikt om de title die moet worden getoond te versturen.
+Status wordt gebruikt om de titel die moet worden getoond te versturen.
 
 Control wordt gebruikt om een thema te selecteren, zwarte letters op een wit scherm of andersom, of om de grootte van het lettertype aan te passen.
 
@@ -57,10 +60,10 @@ De broncode van de [flutter] en de [slint] versie is beschikbaar op Github. Ik h
 
 ## Lipl Afstandsbediening
 
-De toepassing kan de gegevens syncroniseren met Lipl Storage. Dit is belangrijk omdat Internet niet altijd beschikbaar is op elke plek.
+De toepassing kan de gegevens synchroniseren met Lipl Storage. Dit is belangrijk omdat internet niet altijd beschikbaar is op elke plek.
 
 Op een android toestel kan de toepassing verbinding maken met Lipl Scherm.
-Eenmaal verbonden worden de geselecteerde liedjes automatisch getoon op Lipl Scherm.
+Eenmaal verbonden worden de geselecteerde liedjes automatisch getoond op Lipl Scherm.
 
 De broncode voor [lipl afstandsbediening] is beschikbaar via Github.
 

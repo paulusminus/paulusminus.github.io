@@ -9,13 +9,13 @@ export default defineConfig({
     },
   ],
   root: path.join(__dirname, 'docs'),
-  title: 'Paul Min',
+  title: 'Paulus',
   description: 'Persoonlijke website van Paul Min',
-  icon: '/rspress-icon.png',
-  logo: {
-    light: '/rspress-light-logo.png',
-    dark: '/rspress-dark-logo.png',
-  },
+  // icon: '/rspress-icon.png',
+  // logo: {
+  //   light: '/rspress-light-logo.png',
+  //   dark: '/rspress-dark-logo.png',
+  // },
   themeConfig: {
     search: false,
     outlineTitle: 'Op deze pagina',
