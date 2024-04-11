@@ -1,12 +1,7 @@
 [
   {
-    "text": "Rust",
-    "link": "/",
-    "activeMatch": "/"
-  },
-  {
     "text": "Lipl",
-    "link": "/lipl.html",
-    "activeMatch": "/lipl.html"
+    "link": "/lipl",
+    "activeMatch": "/lipl"
   }
 ]

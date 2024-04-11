@@ -60,7 +60,7 @@ De broncode van de [flutter] en de [slint] versie is beschikbaar op Github. Ik h
 
 ## Lipl Afstandsbediening
 
-De toepassing kan de gegevens synchroniseren met Lipl Storage. Dit is belangrijk omdat internet niet altijd beschikbaar is op elke plek.
+Deze toepassing kan de liedteksten en afspeellijsten synchroniseren met Lipl Storage. Dit is belangrijk omdat internet niet altijd beschikbaar is op elke plek.
 
 Op een android toestel kan de toepassing verbinding maken met Lipl Scherm.
 Eenmaal verbonden worden de geselecteerde liedjes automatisch getoond op Lipl Scherm.

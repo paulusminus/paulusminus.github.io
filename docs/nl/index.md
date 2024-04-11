@@ -1,5 +1,5 @@
 ---
-title: "In rust we trust"
+title: "Rust"
 ---
 
 # Rust
