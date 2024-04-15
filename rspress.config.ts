@@ -2,6 +2,9 @@ import * as path from 'path';
 import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
+  markdown: {
+    checkDeadLinks: true
+  },
   lang: 'nl',
   locales: [{
       lang: 'nl',
